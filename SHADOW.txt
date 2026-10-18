@@ -1,0 +1,6 @@
+shadow prebuilt repo: cbor-java (target)
+  upstream: external/cbor-java
+  api-level: 34 (branch 34-20261016)
+  blobs: org.blisslabs.ag.ext.cbor.java.apex
+  dev-src: extracted extractive JVM payload (cbor-java.jar) + root Android.bp
+  date: 2026-10-16

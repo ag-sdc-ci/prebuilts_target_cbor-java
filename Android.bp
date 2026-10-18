@@ -1,0 +1,30 @@
+// Auto-generated prebuilt APEX Blueprint for external/cbor-java
+// Staged from Extractive APEX package: ext-cbor-java (org.blisslabs.ag.ext.cbor-java)
+
+package {
+    default_applicable_licenses: ["external_cbor-java_license"],
+}
+
+license {
+    name: "external_cbor-java_license",
+    visibility: [":__subpackages__"],
+    license_kinds: [
+        "SPDX-license-identifier-Apache-2.0",
+    ],
+    license_text: [
+        "LICENSE",
+    ],
+}
+
+java_import {
+    name: "cbor-java",
+    host_supported: true,
+    installable: false,
+    jars: ["share/cbor-java/cbor-java.jar"],
+    sdk_version: "core_current",
+    min_sdk_version: "30",
+    apex_available: [
+        "//apex_available:anyapex",
+        "//apex_available:platform",
+    ],
+}
